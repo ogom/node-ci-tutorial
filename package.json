@@ -1,0 +1,14 @@
+{
+  "name": "node-ci-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial in the node.js to CI",
+  "keywords": [ "ci", "test", "testing", "mocha", "chai" ],
+  "author": "ogom <ogom@hotmail.co.jp>",
+  "scripts": { "test": "make test-all" },
+  "engines": { "node": ">= 0.8.x" },
+  "dependencies":{},
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  }
+}
