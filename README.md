@@ -11,3 +11,10 @@ Travis CI
 3. GitHubへプッシュしたらビルドは自動的に開始します。
 
 
+---
+
+Jenkins
+-------
+
+1. [CloudBees](http://www.cloudbees.com/)で無料のJenkinsを利用します。
+

@@ -4,7 +4,7 @@
   "description": "Tutorial in the node.js to CI",
   "keywords": [ "ci", "test", "testing", "mocha", "chai" ],
   "author": "ogom <ogom@hotmail.co.jp>",
-  "scripts": { "test": "make test-all" },
+  "scripts": { "test": "make test-spec" },
   "engines": { "node": ">= 0.8.x" },
   "dependencies":{},
   "devDependencies": {
