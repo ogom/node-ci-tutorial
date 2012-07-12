@@ -1,20 +1,16 @@
-node-ci-tutorial
-================
+Node.js CI Tutorial
+===================
 
 ---
 
-Travis CI
----------
+### [Travis CI](http://travis-ci.org/)
 
-1. [Travice CI](http://travis-ci.org/)にGitHubでログインします。
+1. Travice CIにGitHubでログインします。
 2. リポジトリのスイッチを設定し、Travis-ciを有効にします。
 3. GitHubへプッシュしたらビルドは自動的に開始します。
 
-
 ---
 
-Jenkins
--------
+### [Jenkins](https://jenkins-ci.org/)
 
 1. [CloudBees](http://www.cloudbees.com/)で無料のJenkinsを利用します。
-
