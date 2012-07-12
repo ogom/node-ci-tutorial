@@ -19,7 +19,7 @@ describe('User', function() {
     it('Should return name is chiffon.', function() {
       var user = User.create({name:'cinnamon'});
       user.rename('chiffon');
-      user.should.have.property('name','chiffon2');
+      user.should.have.property('name','chiffon');
     });
   });
 });

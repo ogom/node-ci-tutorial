@@ -15,7 +15,7 @@ Node.js CI Tutorial
 
 1. [CloudBees](http://www.cloudbees.com/)で無料のJenkinsを利用します。
 2. `SIGN UP FOR FREE`でアカウントを作成します。
-3  Jenkinsの[プラグインの管理]で`Git plugin`と`GitHub plugin`をインストールします。
+3. Jenkinsの[プラグインの管理]で`Git plugin`と`GitHub plugin`をインストールします。
 4. Jenkinsの[新規ジョブ作成]で`フリースタイル・プロジェクトのビルド`を作ります。
 5. [CloudBees DEV@cloud Authorization]の`Public Key`をGitHubのDeploy keysに登録します。
 6. [ソースコード管理システム]で`Git`を選んで`Repository URL`を設定します。
