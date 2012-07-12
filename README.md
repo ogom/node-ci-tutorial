@@ -20,14 +20,20 @@ Node.js CI Tutorial
 5. [CloudBees DEV@cloud Authorization]の`Public Key`をGitHubのDeploy keysに登録します。
 6. [ソースコード管理システム]で`Git`を選んで`Repository URL`を設定します。
 7. [ビルド・トリガ]で`Build when a change is pushed to GitHub`を選択します。
-8. [ビルド]で`シェルの実行`を追加して`シェルスクリプト`にこれを追加します。
+8. [ビルド]で`シェルの実行`を追加して`シェルスクリプト`を追加します。
+9. [ビルド後の処理]で`JUnitテスト結果の集計`を選んで`xunit.xml`を設定します。
+10. GitHubの[Service Hooks]の`Jenkins (GitHub plugin)`でJenkins Hook Urlを設定します。
+11. GitHubへプッシュしたらビルドは自動的に開始します。
+
+---
+
+#### シェルスクリプト
     curl https://raw.github.com/hokaccha/nodebrew/master/nodebrew | perl - setup
     export PATH=$HOME/.nodebrew/current/bin:$PATH
     nodebrew install v0.8.2
     nodebrew use v0.8.2
     npm install
     make test-xunit > xunit.xml
-9. [ビルド後の処理]で`JUnitテスト結果の集計`を選んで`xunit.xml`を設定します。
-10. GitHubの[Service Hooks]の`Jenkins (GitHub plugin)`でJenkins Hook Urlを設定します。
+
+#### Jenkins Hook Url
     https://[myaccount].ci.cloudbees.com/github-webhook/
-11. GitHubへプッシュしたらビルドは自動的に開始します。
